@@ -73,12 +73,17 @@ body
     padding-bottom: 50px;
     margin-bottom: -130px;
     background-color: #121212;
+    color: #121212;
 }
 .about .col-md-6 h3
 {
     color: #ffffff;
 }
 .about .col-md-6 p
+{
+    color: #ffffff;
+}
+.about .col-md-6 li
 {
     color: #ffffff;
 }
@@ -120,22 +125,30 @@ body
 .user-info{
     color: #121212;
 }
+.user-info about
+{
+    background-color: #121212;
+}
 .skills-bar p
 {
     margin-bottom: 6px;
     font-weight: 600;
 }
-.progress
+.about ul
 {
-    border-radius: 16px !important;
-    margin-bottom: 10px;
+    list-style-image: url("img/code.png");
 }
-.progress-bar
-{
-    border-radius: 16px;
-    background: #000 !important;
-    border-color: #121212;
-}
+/*.progress*/
+/*{*/
+/*    border-radius: 16px !important;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+/*.progress-bar*/
+/*{*/
+/*    border-radius: 16px;*/
+/*    background: #000 !important;*/
+/*    border-color: #121212;*/
+/*}*/
 
 /*-------------Resume------------------*/
 .resume
@@ -193,7 +206,7 @@ body
 .timeline li:before
 {
     content: '';
-    background: #fff;
+    background: #181818;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
@@ -209,10 +222,16 @@ body
 {
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: #181818;
 }
 .services h1
 {
     margin-bottom: 15px;
+    color: #ffffff;
+}
+.services p
+{
+    color: #ffffff;
 }
 .services-box
 {
