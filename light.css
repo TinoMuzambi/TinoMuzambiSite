@@ -347,9 +347,12 @@ body
     width: 80px;
     transition: 1s;
 }
-
+.blog {
+    background-color: #FFFFFF;
+}
 .page h1{
-    font-size: 320px;
     color: #121212;
     background-color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
 }

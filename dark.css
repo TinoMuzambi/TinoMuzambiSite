@@ -354,9 +354,15 @@ body
     width: 80px;
     transition: 1s;
 }
-
+.blog {
+    background-color: #121212;
+}
 .page h1 {
-    font-size: 320px;
+    font-size: 20px;
     color: #ffffff;
     background-color: #121212;
+    text-align: center;
+}
+#footer .container .row {
+    padding-bottom: 8px;
 }
