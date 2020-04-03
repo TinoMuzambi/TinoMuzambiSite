@@ -81,6 +81,7 @@ body
 .about .col-md-6 p
 {
     color: #ffffff;
+    text-align: justify;
 }
 .about .col-md-6 li
 {
@@ -132,28 +133,12 @@ body
     max-height: 80%;
     max-width: 80%;
     padding-top: 20px;
+    display: block;
 }
 .user-info {
     background-color: #121212;
 }
-li.python {
-    list-style-image: url("img/pythonc.png");
-}
-li.java {
-    list-style-image: url("img/java.png");
-}
-li.html {
-    list-style-image: url("img/html.png");
-}
-li.cpp {
-    list-style-image: url("img/c++.png");
-}
-li.golang {
-    list-style-image: url("img/golang.png");
-}
-li.android {
-    list-style-image: url("img/android.png");
-}
+
 /*.about ul*/
 /*{*/
 /*    list-style-image: url("img/code.png");*/
@@ -204,7 +189,7 @@ li.android {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
-    background: #303030;
+    background: #272727;
 }
 .timeline li h4
 {
@@ -261,10 +246,11 @@ li.android {
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
 }
-.services-box fa
+.services-box i
 {
     margin: 0 10px;
     font-size: 20px;
+    color: #ffffff;
 }
 .services-box span
 {
@@ -308,6 +294,9 @@ li.android {
     padding: 30px 0;
     font-size: 22px;
 }
+.contact .col-md-4 a:hover {
+    color: #ffffff;
+}
 .contact .col-md-4 .fa
 {
     padding: 10px;
@@ -330,13 +319,17 @@ li.android {
 }
 .contact .btn:hover
 {
-    border: 2px solid #000 !important;
+    border: 2px solid #575757 !important;
     background: #000 !important;
     transition: 0.6s;
 }
 .contact .btn .fa
 {
     margin-right: 10px;
+}
+.contact .btn a {
+    color: #ffffff;
+    font-family: sans-serif;
 }
 .footer
 {
