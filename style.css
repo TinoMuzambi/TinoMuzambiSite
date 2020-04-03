@@ -13,11 +13,11 @@ body
     background-size: cover;
     background-attachment: fixed;
 }
-.about .row .col-md-6 img
-{
-    border-radius: 50px;
-    border: 5px solid #f9f9f9;
-}
+/*.about .row .col-md-6 img*/
+/*{*/
+/*    border-radius: 50px;*/
+/*    border: 5px solid #f9f9f9;*/
+/*}*/
 .user-box
 {
     top: 50%;
@@ -73,7 +73,6 @@ body
     padding-bottom: 50px;
     margin-bottom: -130px;
     background-color: #121212;
-    color: #121212;
 }
 .about .col-md-6 h3
 {
@@ -90,6 +89,8 @@ body
 .profile-img
 {
     height: 400px;
+    border-radius: 50px;
+    border: 5px solid #f9f9f9;
 }
 .nav-bar
 {
@@ -122,22 +123,41 @@ body
 {
     color: #fff !important;
 }
-.user-info{
-    color: #121212;
-}
-.user-info about
-{
-    background-color: #121212;
-}
 .skills-bar p
 {
     margin-bottom: 6px;
     font-weight: 600;
 }
-.about ul
-{
-    list-style-image: url("img/code.png");
+.tools-img {
+    max-height: 80%;
+    max-width: 80%;
+    padding-top: 20px;
 }
+.user-info {
+    background-color: #121212;
+}
+li.python {
+    list-style-image: url("img/pythonc.png");
+}
+li.java {
+    list-style-image: url("img/java.png");
+}
+li.html {
+    list-style-image: url("img/html.png");
+}
+li.cpp {
+    list-style-image: url("img/c++.png");
+}
+li.golang {
+    list-style-image: url("img/golang.png");
+}
+li.android {
+    list-style-image: url("img/android.png");
+}
+/*.about ul*/
+/*{*/
+/*    list-style-image: url("img/code.png");*/
+/*}*/
 /*.progress*/
 /*{*/
 /*    border-radius: 16px !important;*/
@@ -156,7 +176,7 @@ body
     margin-top: -40px;
     padding-top: 50px;
     padding-bottom: 30px;
-    background-color: #121212;
+    background-color: #151515;
 }
 .resume h3
 {
@@ -206,11 +226,11 @@ body
 .timeline li:before
 {
     content: '';
-    background: #181818;
+    background: #ffffff;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #000;
+    border: 3px solid #272727;
     left: 20px;
     width: 20px;
     height: 20px;
