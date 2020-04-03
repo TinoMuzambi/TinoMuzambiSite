@@ -11,9 +11,10 @@
 
         gtag('config', 'UA-141921777-1');
     </script>
-
+    <link rel="stylesheet" href="light.css">
+    <script type="application/javascript" src="index_styleswitcher.js"></script>
+    <link id="pagestyle" href="light.css" rel="stylesheet" type="text/css" />
     <title>Tino Muzambi</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -27,7 +28,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
+<body onload="update()">
 <!---------------Header section-------------------->
 <section id="header">
     <div class="container text-center">
@@ -61,10 +62,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="">LIGHT</a>
+                        <a class="nav-link" style="cursor:pointer" id="switcher1">DARK</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#top">HOME</a>
+                        <a class="nav-link" href="#">HOME</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">ABOUT ME</a>
@@ -90,7 +91,7 @@
             <div class="col-md-6">
                 <h3>WHO AM I?</h3>
                 <p>
-                    I'm Tino. An avid techie and software developer based in Cape Town, South Africa.<br>I'm keen on creating software that solves the problems that everyday people have. I have a strong foundation in Computer Science and am always looking to learn new things.
+                    I'm Tino. An avid techie and software developer based in Cape Town, South Africa. I'm keen on creating software that solves the problems that everyday people have. I have a strong foundation in Computer Science and am always looking to learn new things.
                     <br>
                     <br>I'm familiar with the following tools and technologies:
                     <br>
