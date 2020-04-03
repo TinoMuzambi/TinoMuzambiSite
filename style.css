@@ -13,11 +13,6 @@ body
     background-size: cover;
     background-attachment: fixed;
 }
-/*.about .row .col-md-6 img*/
-/*{*/
-/*    border-radius: 50px;*/
-/*    border: 5px solid #f9f9f9;*/
-/*}*/
 .user-box
 {
     top: 50%;
@@ -138,22 +133,6 @@ body
 .user-info {
     background-color: #121212;
 }
-
-/*.about ul*/
-/*{*/
-/*    list-style-image: url("img/code.png");*/
-/*}*/
-/*.progress*/
-/*{*/
-/*    border-radius: 16px !important;*/
-/*    margin-bottom: 10px;*/
-/*}*/
-/*.progress-bar*/
-/*{*/
-/*    border-radius: 16px;*/
-/*    background: #000 !important;*/
-/*    border-color: #121212;*/
-/*}*/
 
 /*-------------Resume------------------*/
 .resume
@@ -371,49 +350,8 @@ body
     transition: 1s;
 }
 
-/*-------------------Dark Mode Button------------------*/
-.onoffswitch {
-    position: relative; width: 55px;
-    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
-}
-.onoffswitch-checkbox {
-    display: none;
-}
-.onoffswitch-label {
-    display: block; overflow: hidden; cursor: pointer;
-    border: 2px solid #FFFFFF; border-radius: 30px;
-}
-.onoffswitch-inner {
-    display: block; width: 200%; margin-left: -100%;
-    transition: margin 0.3s ease-in 0s;
-}
-.onoffswitch-inner:before, .onoffswitch-inner:after {
-    display: block; float: left; width: 50%; height: 20px; padding: 0; line-height: 20px;
-    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
-    box-sizing: border-box;
-}
-.onoffswitch-inner:before {
-    content: "";
-    padding-left: 10px;
-    background-color: #42A5F5; color: #FFFFFF;
-}
-.onoffswitch-inner:after {
-    content: "";
-    padding-right: 10px;
-    background-color: #9E9E9E; color: #FFFFFF;
-    text-align: right;
-}
-.onoffswitch-switch {
-    display: block; width: 30px; margin: -5px;
-    background: #FFFFFF;
-    position: absolute; top: 0; bottom: 0;
-    right: 31px;
-    border: 2px solid #FFFFFF; border-radius: 30px;
-    transition: all 0.3s ease-in 0s;
-}
-.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
-    margin-left: 0;
-}
-.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
-    right: 0;
+.page h1{
+    font-size: 320px;
+    color: #ffffff;
+    background-color: #121212;
 }
