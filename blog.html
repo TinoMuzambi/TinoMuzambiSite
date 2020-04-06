@@ -30,8 +30,29 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body onload="updateB()">
-    <div class="nav-bar">
+<!---------------Header section-------------------->
+<!--<section id="header">-->
+<!--    <div class="container text-center">-->
+<!--        <div class="user-box">-->
+<!--            <img src="img/me.jpg" alt="Image of me">-->
+<!--            <h1>Tino Muzambi</h1>-->
+<!--            <p>Software Developer</p>-->
+<!--        </div>-->
+<!--    </div>-->
 
+<!--    <div class="scroll-btn">-->
+<!--        <div class="scroll-bar">-->
+<!--            <a href="#about">-->
+<!--                <span></span>-->
+<!--            </a>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<!-------------User Info Section---------------->
+<section id="user-info" class="user-info">
+
+    <div class="nav-bar">
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Tino Logo"></a>
 
@@ -52,33 +73,45 @@
         </nav>
 
     </div>
-    <section class="blog">
-        <div class="page">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <h1>COMING SOON...</h1>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+
+    <!-----------------Social Icons--------------------------->
+
+    <div class="social-icons">
+        <ul>
+            <a href="https://www.linkedin.com/in/tinomuzambi/"><li><i class="fa fa-linkedin"></i></li></a>
+            <a href="https://twitter.com/TinoMuzambi"><li><i class="fa fa-twitter"></i></li></a>
+            <a href="https://www.facebook.com/tino.muzambi"><li><i class="fa fa-facebook"></i></li></a>
+            <a href="https://github.com/TinoMuzambi"><li><i class="fa fa-github"></i></li></a>
+            <a href="https://www.instagram.com/tinomuzambi/"><li><i class="fa fa-instagram"></i></li></a>
+            <a href="https://www.youtube.com/channel/UC4V3g54INQEizr8U7QTxCbg?"><li><i class="fa fa-youtube"></i></li></a>
+        </ul>
+    </div>
+
+    <div class="page">
+
+        <h1>COMING SOON...</h1>
+
+    </div>
+
+    <!--------------Contact----------------->
+
+    <div class="blog" id="contact">
+        <div class="container text-center">
+            <h1>Blogg</h1>
+            <button type="button" class="btn btn-primary"><i class="fa fa-align-justify"><a href="#"></a></i></button>
         </div>
 
         <div class="footer text-center">
             <p>Made with HTML, CSS & JS. <i class="fa fa-copyright"></i> Copyright Tino Muzambi 2020</p>
         </div>
-    </section>
+    </div>
+</section>
+
+<!----------------------Smooth Scroll------------------------>
+<script src="smooth-scroll.js"></script>
+<script>
+    const scroll = new SmoothScroll('a[href*="#"]');
+</script>
 
 </body>
 </html>
