@@ -207,22 +207,22 @@ body
 }
 
 /*---------------Services------------------*/
-.services
+.projects
 {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #181818;
 }
-.services h1
+.projects h1
 {
     margin-bottom: 15px;
     color: #ffffff;
 }
-.services p
+.projects p
 {
     color: #ffffff;
 }
-.services-box
+.project
 {
     background: #121212;
     padding: 10px;
@@ -230,26 +230,26 @@ body
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
 }
-.services-box i
+.project i
 {
     margin: 0 10px;
     font-size: 20px;
     color: #ffffff;
 }
-.services-box span
+.project span
 {
     margin: 3px;
     font-size: 20px;
     font-weight: bold;
     color: #ffffff;
 }
-.services-box p
+.project p
 {
     font-size: 15px;
     margin-top: 20px;
     color: #ffffff;
 }
-.services-box:hover
+.project:hover
 {
     background: #000;
     color: #fff;
@@ -258,7 +258,7 @@ body
     border-radius: 50px 0 50px 0;
     transition: 1s;
 }
-.services-box:hover p
+.project:hover p
 {
     color: #fff;
 }

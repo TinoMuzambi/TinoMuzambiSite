@@ -204,55 +204,59 @@ body
 }
 
 /*---------------Services------------------*/
-.services
+.projects
 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.services h1
+.projects h1
 {
     margin-bottom: 15px;
 }
-.services-box
+.project
 {
     background: #f9f9f9;
     padding: 10px;
+    color: black !important;
     margin-top: 20px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
 }
-.services-box i
+.project i
 {
     margin: 0 10px;
     font-size: 20px;
     color: #121212;
 }
-.services-box span
+.project span
 {
     margin: 3px;
     font-size: 20px;
     font-weight: bold;
 }
-.services-box p
+.project p
 {
     font-size: 15px;
     margin-top: 20px;
     color: #777;
 }
-.services-box:hover
+.project:hover
 {
     background: #000;
-    color: #fff;
+    color: #fff !important;
     padding: 10px;
     margin-top: 20px;
     border-radius: 50px 0 50px 0;
     transition: 1s;
 }
-.services-box:hover p
+.project:hover p
 {
     color: #fff;
 }
-.services-box:hover i {
+.projects .col-md-4 a:hover{
+    text-decoration: none;
+}
+.project:hover i {
     color: #FFFFFF;
 }
 
