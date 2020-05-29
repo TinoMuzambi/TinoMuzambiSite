@@ -287,31 +287,9 @@ body
 {
     color: #fff;
 }
-.contact .btn
+.contact a:hover
 {
-    padding: 10px 25px 10px 25px;
-    margin: 5px;
-    border-radius: 30px;
-    border: 2px solid #fff;
-    background: transparent;
-}
-.contact .btn:focus{
-    box-shadow: none !important;
-}
-.contact .btn:hover
-{
-    border: 2px solid #575757 !important;
-    background: #000 !important;
-    transition: 0.6s;
-}
-
-.contact .btn .fa
-{
-    margin-right: 10px;
-}
-.contact .btn a {
-    color: #ffffff;
-    font-family: sans-serif;
+    text-decoration: none;
 }
 .footer
 {
@@ -387,15 +365,18 @@ body
     text-align: center;
 }
 
-#footer .container .row {
+#footer .container .row
+{
     padding-bottom: 8px;
 }
 
-.contact .row .col-md-4 i{
+.contact .row .col-md-4 i
+{
     padding-bottom: 10px;
     font-size: 50px;
 }
 
-.footer i{
+.footer i
+{
     font-size: 15px;
 }
