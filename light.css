@@ -386,3 +386,11 @@ body
 #footer .container .row {
     padding-bottom: 8px;
 }
+
+.contact .row .col-md-4 i{
+    font-size: 50px;
+}
+
+.footer i{
+    font-size: 15px;
+}
