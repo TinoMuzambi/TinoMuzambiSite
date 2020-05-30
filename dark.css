@@ -2,6 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
+    width: 100%;
     font-family: sans-serif;
 }
 /**----------Header CSS-------------*/
@@ -368,6 +369,10 @@ body
     color: #ffffff;
     background-color: #121212;
     text-align: center;
+}
+.page .fb-comments
+{
+    margin-left: 50px;
 }
 #footer .container .row
 {
