@@ -89,14 +89,33 @@
 
     <div class="page">
 
-        <!---------------------------------  Facebook Comments Plugin  ------------------------------------- -->
+        <!---------------------------------  Disqus Comments Plugin  ------------------------------------- -->
 
-        <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=568290120388354"></script>
+        <div class=comments id="disqus_thread">
+            <script>
 
-        <div class="fb-comments" data-href="tinomuzambi.com/blog.html" data-numposts="10" data-width="100%"></div>
+                /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
-        <!--------------X------------------  Facebook Comments Plugin  ------------------------X------------- -->
+                var disqus_config = function () {
+                this.page.url = "https://tinomuzambi.com/blog";  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = "tinomuzambi"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+
+                (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://tinomuzambi.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+        </div>
+
+
+        <!--------------X------------------  Disqus Comments Plugin  ------------------------X------------- -->
 
     </div>
 

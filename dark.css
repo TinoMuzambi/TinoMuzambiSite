@@ -370,9 +370,10 @@ body
     background-color: #121212;
     text-align: center;
 }
-.page .fb-comments
+.page .comments
 {
-    margin-left: 50px;
+    width: 90%;
+    margin: 0 auto;
 }
 #footer .container .row
 {
