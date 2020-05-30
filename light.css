@@ -331,45 +331,6 @@ body
     width: 80px;
     transition: 1s;
 }
-
-.blog
-{
-    padding-top: 50px;
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/background.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    color: #fff;
-}
-.blog .btn
-{
-    padding-top: 20px;
-    margin: 5px;
-    border-radius: 80px;
-    border: 0 solid #fff;
-    background: transparent;
-}
-.blog .btn:focus{
-    box-shadow: none !important;
-}
-.blog .btn:hover
-{
-    background: #000 !important;
-    transition: 0.6s;
-}
-.page h1{
-    padding-bottom: 300px;
-    padding-top: 50px;
-    color: #121212;
-    background-color: #FFFFFF;
-    font-size: 25px;
-    text-align: center;
-}
-.page .comments
-{
-    width: 90%;
-    margin: 0 auto;
-}
 #footer .container .row
 {
     padding-bottom: 8px;
