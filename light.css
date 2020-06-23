@@ -124,13 +124,16 @@ body
     margin-bottom: 6px;
     font-weight: 600;
 }
-.timage {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    width: 100%;
+.timage .tools-img {
+    max-height: 80%;
+    max-width: 80%;
+    padding-top: 20px;
+    border: 0;
+    display: block;
 }
-.timage img {
-    max-height: 10vh;
+.timage p {
+    font-size: 25px;
+    padding-left: 15px;
 }
 .user-info {
     background-color: #FFFFFF;
