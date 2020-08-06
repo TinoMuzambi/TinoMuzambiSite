@@ -185,9 +185,6 @@ body {
 	padding-bottom: 50px;
 	background-color: #181818;
 }
-.projects .row {
-	display: flex;
-}
 .projects h1 {
 	margin-bottom: 15px;
 	color: #ffffff;

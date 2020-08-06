@@ -181,9 +181,6 @@ body {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-.projects .row {
-	display: flex;
-}
 .projects h1 {
 	margin-bottom: 15px;
 }
