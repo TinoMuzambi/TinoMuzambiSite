@@ -1,331 +1,539 @@
 <html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141921777-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-141921777-1"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+			function gtag() {
+				dataLayer.push(arguments);
+			}
 
-        gtag('js', new Date());
+			gtag("js", new Date());
 
-        gtag('config', 'UA-141921777-1');
-    </script>
-    <link rel="stylesheet" href="light.css">
-    <link rel="stylesheet" href="./all.css">
-    <script type="application/javascript" src="index_styleswitcher.js"></script>
-    <link id="pagestyle" href="light.css" rel="stylesheet" type="text/css"/>
-    <title>Tino Muzambi</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-</head>
+			gtag("config", "UA-141921777-1");
+		</script>
+		<link rel="stylesheet" href="light.css" />
+		<link rel="stylesheet" href="./all.css" />
+		<script type="application/javascript" src="index_styleswitcher.js"></script>
+		<link id="pagestyle" href="light.css" rel="stylesheet" type="text/css" />
+		<title>Tino Muzambi</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+		<link rel="manifest" href="/site.webmanifest" />
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="theme-color" content="#ffffff" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		/>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</head>
 
-<body onload="update()">
-<!---------------Header section-------------------->
-<section id="header">
-    <div class="container text-center">
-        <div class="user-box">
-            <img src="img/me.jpg" alt="Image of me">
-            <h1>Tino Muzambi</h1>
-            <p>Software Developer</p>
-        </div>
-    </div>
+	<body onload="update()">
+		<!---------------Header section-------------------->
+		<section id="header">
+			<div class="container text-center">
+				<div class="user-box">
+					<img src="img/me.jpg" alt="Image of me" />
+					<h1>Tino Muzambi</h1>
+					<p>Software Developer</p>
+				</div>
+			</div>
 
-    <div class="scroll-btn">
-        <div class="scroll-bar">
-            <a href="#about">
-                <span></span>
-            </a>
-        </div>
-    </div>
-</section>
+			<div class="scroll-btn">
+				<div class="scroll-bar">
+					<a href="#about">
+						<span></span>
+					</a>
+				</div>
+			</div>
+		</section>
 
-<!-------------User Info Section---------------->
-<section id="user-info" class="user-info">
+		<!-------------User Info Section---------------->
+		<section id="user-info" class="user-info">
+			<div class="nav-bar">
+				<nav class="navbar navbar-expand-lg">
+					<a class="navbar-brand" href="#"
+						><img src="img/logo.png" alt="Tino Logo"
+					/></a>
 
-    <div class="nav-bar">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Tino Logo"></a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<i class="fa fa-bars"></i>
+					</button>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-            </button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" style="cursor: pointer;" id="switcher1"
+									>DARK</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">HOME</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">ABOUT ME</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#experiences">EXPERIENCES</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="https://bit.ly/TinoBlog">BLOG</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" style="cursor:pointer" id="switcher1">DARK</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">ABOUT ME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#experiences">EXPERIENCES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://bit.ly/TinoBlog">BLOG</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+			<!------------About------------>
+			<div class="about container" id="about">
+				<div class="row">
+					<div class="col-md-6 text-center">
+						<img src="img/me2.jpg" class="profile-img" alt="Image of me" />
+					</div>
+					<div class="col-md-6">
+						<h3>WHO AM I?</h3>
+						<p>
+							I'm Tino. An avid techie and software developer based in Cape
+							Town, South Africa. I'm keen on creating software that solves the
+							problems that everyday people have. I have a strong foundation in
+							Computer Science and am always looking to learn new things.
+							<br />
+							<br />I'm familiar with the following tools and technologies:
+							<br />
+						</p>
+						<div class="timage">
+							<img
+								src="./tools/android.png"
+								alt="android"
+								title="android"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/atom.png"
+								alt="atom"
+								title="atom"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/c++.png"
+								alt="c++"
+								title="c++"
+								class="tools-img"
+							/>
+							<img src="./tools/c.png" alt="c" title="c" class="tools-img" />
+							<img
+								src="./tools/css.png"
+								alt="css3"
+								title="css3"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/gimp.png"
+								alt="gimp"
+								title="gimp"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/git.png"
+								alt="git"
+								title="git"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/github.png"
+								alt="github"
+								title="github"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/golang.png"
+								alt="golang"
+								title="golang"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/google.png"
+								alt="google"
+								title="google"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/heroku.png"
+								alt="heroku"
+								title="heroku"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/hitfilm.png"
+								alt="hitfilm"
+								title="hitfilm"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/html.png"
+								alt="html5"
+								title="html5"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/java.png"
+								alt="java"
+								title="java"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/jetbrains.png"
+								alt="jetbrains"
+								title="jetbrains"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/mongodb.png"
+								alt="mongodb"
+								title="mongodb"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/nodejs.png"
+								alt="nodejs"
+								title="nodejs"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/notepad++.png"
+								alt="notepad++"
+								title="notepad++"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/office.png"
+								alt="office"
+								title="office"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/python.png"
+								alt="python"
+								title="python"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/react.png"
+								alt="react"
+								title="react"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/rstudio.png"
+								alt="rstudio"
+								title="rstudio"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/selenium.png"
+								alt="selenium"
+								title="selenium"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/slack.png"
+								alt="slack"
+								title="slack"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/tableau.png"
+								alt="tableau"
+								title="tableau"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/ubuntu.png"
+								alt="ubuntu"
+								title="ubuntu"
+								class="tools-img"
+							/>
+							<img src="./tools/vs.png" alt="vs" title="vs" class="tools-img" />
+							<img
+								src="./tools/vs_code.png"
+								alt="vscode"
+								title="vscode"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/wakatime.png"
+								alt="wakatime"
+								title="wakatime"
+								class="tools-img"
+							/>
+							<img
+								src="./tools/windows.png"
+								alt="windows"
+								title="windows"
+								class="tools-img"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
 
-    </div>
+			<!-----------------Social Icons--------------------------->
 
-    <!------------About------------>
-    <div class="about container" id="about">
-        <div class="row">
-            <div class="col-md-6 text-center">
-                <img src="img/me2.jpg" class="profile-img" alt="Image of me">
-            </div>
-            <div class="col-md-6">
-                <h3>WHO AM I?</h3>
-                <p>
-                    I'm Tino. An avid techie and software developer based in Cape Town, South Africa. I'm keen on
-                    creating software that solves the problems that everyday people have. I have a strong foundation in
-                    Computer Science and am always looking to learn new things.
-                    <br>
-                    <br>I'm familiar with the following tools and technologies:
-                    <br>
-                <div class="timage">
-                    <img src="img/tools.png" alt="Tools and Technologies" class="tools-img">
-                </div>
+			<div class="social-icons">
+				<ul>
+					<a href="https://www.linkedin.com/in/tinomuzambi/" target="_blank">
+						<li><i class="fab fa-linkedin"></i></li>
+					</a>
+					<a href="hhttps://bit.ly/TinoTwitter" target="_blank">
+						<li><i class="fab fa-twitter"></i></li>
+					</a>
+					<a href="https://bit.ly/TinoFacebook" target="_blank">
+						<li><i class="fab fa-facebook"></i></li>
+					</a>
+					<a href="https://bit.ly/TinoGitHub" target="_blank">
+						<li><i class="fab fa-github"></i></li>
+					</a>
+					<a href="https://bit.ly/TinoInstagram" target="_blank">
+						<li><i class="fab fa-instagram"></i></li>
+					</a>
+					<a href="https://bit.ly/TinoYouTube" target="_blank">
+						<li><i class="fab fa-youtube"></i></li>
+					</a>
+				</ul>
+			</div>
 
-                </p>
-            </div>
-        </div>
-    </div>
+			<!--------------Experiences---------------------->
+			<div class="experiences" id="experiences">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h3 class="text-center">My Experiences</h3>
+							<ul class="timeline">
+								<li>
+									<h4>
+										<span>2020 - </span>IT & Resource Manager of the Science
+										Students' Council
+									</h4>
+									<p>
+										The IT & Resource Manager:<br />
+										Manages all online platforms of the SSC.<br />
+										Ensures that all IT related media is up to date.<br />
+										Attends to any grievances from students with regards to the
+										science undergraduate computer labs.<br />
+										Responsible for research and analyzing information for
+										recommendation to the relevant portfolio holders within the
+										SSC.<br />
+										<b>Company</b> - University of Cape Town<br />
+										<b>Duration</b> - September 2019 - Current<br />
+										<b>Location</b> - Cape Town<br />
+									</p>
+								</li>
+								<li>
+									<h4><span>2020 - </span>2nd Year Computer Science Tutor</h4>
+									<p>
+										My job includes the following for second year Computer
+										Science courses: Conducting practical programming sessions.
+										Invigilating tests. Marking tests.<br />
+										<b>Company</b> - University of Cape Town<br />
+										<b>Duration</b> - February 2020 - Current<br />
+										<b>Location</b> - Cape Town<br />
+									</p>
+								</li>
+								<li>
+									<h4><span>2019 - </span>1st Year Computer Science Tutor</h4>
+									<p>
+										My job included the following for first year Computer
+										Science courses: Conducting practical programming sessions.
+										Conducting theoretical problem solving sessions.
+										Invigilating tests. Marking tests.<br />
+										<b>Company</b> - University of Cape Town<br />
+										<b>Duration</b> - February 2019 - November 2019<br />
+										<b>Location</b> - Cape Town<br />
+									</p>
+								</li>
+								<li>
+									<h4><span>2019 - </span>Software Developer Intern</h4>
+									<p>
+										I worked on a real life project that was implemented by
+										Capitec Bank to facilitate payment streams. Technologies
+										used include Java, XML and AWS.<br />
+										<b>Company</b> - Electrum Payments<br />
+										<b>Duration</b> - 18 June - 12 July 2019<br />
+										<b>Location</b> - Cape Town<br />
+									</p>
+								</li>
+							</ul>
+						</div>
 
+						<div class="col-md-6">
+							<h3 class="text-center">My Education</h3>
+							<ul class="timeline">
+								<li>
+									<h4><span>2020 - </span>3rd Year Computer Science Student</h4>
+									<p>
+										Final year of my 3 year Bachelor of Science in Computer
+										Science degree.<br />
+										<b>Institute</b> - University of Cape Town<br />
+										<b>Duration</b> - 2020 - Current<br />
+										<b>GPA</b> - 75%<br />
+									</p>
+								</li>
+								<li>
+									<h4><span>2019 - </span>2nd Year Computer Science Student</h4>
+									<p>
+										2nd year of my 3 year Bachelor of Science in Computer
+										Science degree. Joined Golden Key International Honour
+										Society, winning one of four Chapter Awards.<br />
+										<b>Institute</b> - University of Cape Town<br />
+										<b>Duration</b> - 2019<br />
+										<b>GPA</b> - 68%<br />
+									</p>
+								</li>
+								<li>
+									<h4><span>2018 - </span>1st Year Computer Science Student</h4>
+									<p>
+										1st year of my 3 year Bachelor of Science in Computer
+										Science degree. Awarded UCT Dean's Merit List for 2018.<br />
+										<b>Institute</b> - University of Cape Town<br />
+										<b>Duration</b> - 2018<br />
+										<b>GPA</b> - 75%.<br />
+									</p>
+								</li>
+								<li>
+									<h4><span>2017 - </span>Matric Student</h4>
+									<p>
+										Matriculated with four distinctions. Obtained Half-Colours
+										in Athletics. Won Award for Highest Achievement in
+										Information Technology.<br />
+										<b>Institute</b> - Fields College<br />
+										<b>Duration</b> - 2017<br />
+										<b>GPA</b> - 80%<br />
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
 
-    <!-----------------Social Icons--------------------------->
+			<!---------------Projects------------------->
+			<div class="projects" id="projects">
+				<div class="container">
+					<h1 class="text-center">My Latest Projects</h1>
+					<p class="text-center">
+						Here are some of the projects I'm currently working on<br />as well
+						as some past projects. Head over to my GitHub to see more.
+					</p>
 
-    <div class="social-icons">
-        <ul>
-            <a href="https://www.linkedin.com/in/tinomuzambi/" target="_blank">
-                <li><i class="fab fa-linkedin"></i></li>
-            </a>
-            <a href="hhttps://bit.ly/TinoTwitter" target="_blank">
-                <li><i class="fab fa-twitter"></i></li>
-            </a>
-            <a href="https://bit.ly/TinoFacebook" target="_blank">
-                <li><i class="fab fa-facebook"></i></li>
-            </a>
-            <a href="https://bit.ly/TinoGitHub" target="_blank">
-                <li><i class="fab fa-github"></i></li>
-            </a>
-            <a href="https://bit.ly/TinoInstagram" target="_blank">
-                <li><i class="fab fa-instagram"></i></li>
-            </a>
-            <a href="https://bit.ly/TinoYouTube" target="_blank">
-                <li><i class="fab fa-youtube"></i></li>
-            </a>
-        </ul>
-    </div>
+					<div class="row">
+						<div class="col-md-4">
+							<a
+								href="https://github.com/TinoMuzambi/WhatsAppAnalyser"
+								target="_blank"
+							>
+								<div class="project">
+									<i class="fab fa-whatsapp"></i
+									><span>WhatsApp Chat Analyser</span>
+									<p>
+										This Python script shows stats about your WhatsApp chat.
+									</p>
+								</div>
+							</a>
+						</div>
 
-    <!--------------Experiences---------------------->
-    <div class="experiences" id="experiences">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h3 class="text-center">My Experiences</h3>
-                    <ul class="timeline">
-                        <li>
-                            <h4><span>2020 - </span>IT & Resource Manager of the Science Students' Council</h4>
-                            <p>
-                                The IT & Resource Manager:<br>
-                                Manages all online platforms of the SSC.<br>
-                                Ensures that all IT related media is up to date.<br>
-                                Attends to any grievances from students with regards to the science undergraduate
-                                computer labs.<br>
-                                Responsible for research and analyzing information for recommendation to the relevant
-                                portfolio holders within the SSC.<br>
-                                <b>Company</b> - University of Cape Town<br>
-                                <b>Duration</b> - September 2019 - Current<br>
-                                <b>Location</b> - Cape Town<br>
-                            </p>
-                        </li>
-                        <li>
-                            <h4><span>2020 - </span>2nd Year Computer Science Tutor</h4>
-                            <p>
-                                My job includes the following for second year Computer Science courses:
-                                Conducting practical programming sessions.
-                                Invigilating tests.
-                                Marking tests.<br>
-                                <b>Company</b> - University of Cape Town<br>
-                                <b>Duration</b> - February 2020 - Current<br>
-                                <b>Location</b> - Cape Town<br>
-                            </p>
-                        </li>
-                        <li>
-                            <h4><span>2019 - </span>1st Year Computer Science Tutor</h4>
-                            <p>
-                                My job included the following for first year Computer Science courses:
-                                Conducting practical programming sessions.
-                                Conducting theoretical problem solving sessions.
-                                Invigilating tests.
-                                Marking tests.<br>
-                                <b>Company</b> - University of Cape Town<br>
-                                <b>Duration</b> - February 2019 - November 2019<br>
-                                <b>Location</b> - Cape Town<br>
-                            </p>
-                        </li>
-                        <li>
-                            <h4><span>2019 - </span>Software Developer Intern</h4>
-                            <p>
-                                I worked on a real life project that was implemented by Capitec Bank to facilitate
-                                payment streams.
-                                Technologies used include Java, XML and AWS.<br>
-                                <b>Company</b> - Electrum Payments<br>
-                                <b>Duration</b> - 18 June - 12 July 2019<br>
-                                <b>Location</b> - Cape Town<br>
-                            </p>
-                        </li>
-                    </ul>
-                </div>
+						<div class="col-md-4">
+							<a href="https://projects.tinomuzambi.com" target="_blank">
+								<div class="project">
+									<i class="fas fa-code"></i><span>Projects.TinoMuzambi</span>
+									<p>
+										This React app is a landing page for all the personal
+										projects I've worked on.
+									</p>
+								</div>
+							</a>
+						</div>
 
-                <div class="col-md-6">
-                    <h3 class="text-center">My Education</h3>
-                    <ul class="timeline">
-                        <li>
-                            <h4><span>2020 - </span>3rd Year Computer Science Student</h4>
-                            <p>
-                                Final year of my 3 year Bachelor of Science in Computer Science degree.<br>
-                                <b>Institute</b> - University of Cape Town<br>
-                                <b>Duration</b> - 2020 - Current<br>
-                                <b>GPA</b> - Loading...<br>
-                            </p>
-                        </li>
-                        <li>
-                            <h4><span>2019 - </span>2nd Year Computer Science Student</h4>
-                            <p>
-                                2nd year of my 3 year Bachelor of Science in Computer Science degree. Joined Golden Key
-                                International Honour Society, winning one of four Chapter Awards.<br>
-                                <b>Institute</b> - University of Cape Town<br>
-                                <b>Duration</b> - 2019<br>
-                                <b>GPA</b> - 68%<br>
-                            </p>
-                        </li>
-                        <li>
-                            <h4><span>2018 - </span>1st Year Computer Science Student</h4>
-                            <p>
-                                1st year of my 3 year Bachelor of Science in Computer Science degree. Awarded UCT Dean's
-                                Merit List for 2018.<br>
-                                <b>Institute</b> - University of Cape Town<br>
-                                <b>Duration</b> - 2018<br>
-                                <b>GPA</b> - 75%.<br>
-                            </p>
-                        </li>
-                        <li>
-                            <h4><span>2017 - </span>Matric Student</h4>
-                            <p>
-                                Matriculated with four distinctions. Obtained Half-Colours in Athletics. Won Award for
-                                Highest Achievement in Information Technology.<br>
-                                <b>Institute</b> - Fields College<br>
-                                <b>Duration</b> - 2017<br>
-                                <b>GPA</b> - 80%<br>
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+						<div class="col-md-4">
+							<a
+								href="https://github.com/TinoMuzambi/GoConversionTool"
+								target="_blank"
+							>
+								<div class="project">
+									<i class="fas fa-plus"></i><span>Go Conversion Tool</span>
+									<p>
+										This Go script does all the conversions you could possibly
+										need.
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
 
-    <!---------------Projects------------------->
-    <div class="projects" id="projects">
-        <div class="container">
-            <h1 class="text-center">My Latest Projects</h1>
-            <p class="text-center">Here are some of the projects I'm currently working on<br>as well as some past
-                projects. Head over to my GitHub to see more.</p>
+			<!--------------Contact----------------->
 
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="https://github.com/TinoMuzambi/WhatsAppAnalyser" target="_blank">
-                        <div class="project">
-                            <i class="fab fa-whatsapp"></i><span>WhatsApp Chat Analyser</span>
-                            <p>This Python script shows stats about your WhatsApp chat.</p>
-                        </div>
-                    </a>
-                </div>
+			<div class="contact" id="contact">
+				<div class="container text-center">
+					<h1>Contact Me</h1>
+					<p class="text-center">
+						I'm open to questions, collaborations and advice. Feel free to reach
+						out via email or one of my social accounts.
+					</p>
 
-                <div class="col-md-4">
-                    <a href="https://projects.tinomuzambi.com" target="_blank">
-                        <div class="project">
-                            <i class="fas fa-code"></i><span>Projects.TinoMuzambi</span>
-                            <p>This React app is a landing page for all the personal projects I've worked on.</p>
-                        </div>
-                    </a>
-                </div>
+					<div class="row">
+						<div class="col-md-4">
+							<a href="https://bit.ly/TinoBlog">
+								<i class="fas fa-blog"></i>
+								<p>Blog</p>
+							</a>
+						</div>
 
-                <div class="col-md-4">
-                    <a href="https://github.com/TinoMuzambi/GoConversionTool" target="_blank">
-                        <div class="project">
-                            <i class="fas fa-plus"></i><span>Go Conversion Tool</span>
-                            <p>This Go script does all the conversions you could possibly need.</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+						<div class="col-md-4">
+							<a href="mailto:tino@tinomuzambi.com">
+								<i class="fas fa-envelope"></i>
+								<p>Email</p>
+							</a>
+						</div>
 
-    <!--------------Contact----------------->
+						<div class="col-md-4">
+							<a href="media/Curriculum%20Vitae%20of%20Tinotenda%20Muzambi.pdf">
+								<i class="fas fa-file-pdf"></i>
+								<p>CV</p>
+							</a>
+						</div>
+					</div>
+				</div>
 
-    <div class="contact" id="contact">
-        <div class="container text-center">
-            <h1>Contact Me</h1>
-            <p class="text-center">I'm open to questions, collaborations and advice. Feel free to reach out via email or
-                one of my social accounts.</p>
+				<div class="footer text-center">
+					<p>
+						Made with HTML, CSS & JS. <i class="fas fa-copyright"></i> Copyright
+						Tino Muzambi 2020
+					</p>
+				</div>
+			</div>
+		</section>
 
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="https://bit.ly/TinoBlog">
-                        <i class="fas fa-blog"></i>
-                        <p>Blog</p>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="mailto:tino@tinomuzambi.com">
-                        <i class="fas fa-envelope"></i>
-                        <p>Email</p>
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <a href="media/Curriculum%20Vitae%20of%20Tinotenda%20Muzambi.pdf">
-                        <i class="fas fa-file-pdf"></i>
-                        <p>CV</p>
-                    </a>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="footer text-center">
-            <p>Made with HTML, CSS & JS. <i class="fas fa-copyright"></i> Copyright Tino Muzambi 2020</p>
-        </div>
-    </div>
-</section>
-
-<!----------------------Smooth Scroll------------------------>
-<script src="smooth-scroll.js"></script>
-<script>
-    var scroll = new SmoothScroll('a[href*="#"]');
-</script>
-
-</body>
+		<!----------------------Smooth Scroll------------------------>
+		<script src="smooth-scroll.js"></script>
+		<script>
+			var scroll = new SmoothScroll('a[href*="#"]');
+		</script>
+	</body>
 </html>
