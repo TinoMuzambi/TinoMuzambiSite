@@ -181,6 +181,9 @@ body {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+.projects .row {
+	display: flex;
+}
 .projects h1 {
 	margin-bottom: 15px;
 }
@@ -201,6 +204,7 @@ body {
 	margin: 3px;
 	font-size: 20px;
 	font-weight: bold;
+	word-wrap: break-word;
 }
 .project p {
 	font-size: 15px;
