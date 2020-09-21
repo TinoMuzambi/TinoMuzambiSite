@@ -109,7 +109,7 @@ body {
 }
 .timage {
 	width: 100%;
-	padding-left: 30px;
+	margin-left: -15px;
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 }
